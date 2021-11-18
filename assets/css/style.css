@@ -38,7 +38,7 @@ header {
 #instructions {
     display: flex;
     width: 100%;
-    height: 50%;
+    height: 225px;
     justify-items: center;
     align-items: center;
     font-size: 35px;
@@ -47,7 +47,13 @@ header {
 #buttonsContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    align-content: center;
+    height: 200px;
+}
+
+button {
+    padding: 5px;
 }
 
 #contentArea {
@@ -61,5 +67,5 @@ header {
 #profile {
     display: flex;
     width: 100%;
-    height: 50%;
+    height: 200px;
 }
