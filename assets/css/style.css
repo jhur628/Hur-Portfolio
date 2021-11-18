@@ -1,0 +1,65 @@
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Outfit', sans-serif;
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    color: silver;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    border: solid 2px black;
+}
+
+#elementsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+#buttonsArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    width:30%;
+}
+
+#instructions {
+    display: flex;
+    width: 100%;
+    height: 50%;
+    justify-items: center;
+    align-items: center;
+    font-size: 35px;
+}
+
+#buttonsContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contentArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: center;
+    width: 65%;
+}
+
+#profile {
+    display: flex;
+    width: 100%;
+    height: 50%;
+}
