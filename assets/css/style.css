@@ -193,3 +193,35 @@ button {
     font-size: 30px;
     font-weight: bold;
 }
+
+#contactMe {
+    display: none;
+    margin-top: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#emailTitle {
+    font-size: 30px;
+}
+
+#email {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#numberTitle {
+    font-size: 30px;
+}
+
+#number {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+button:focus {
+    font-weight: bold;
+    border: solid 2px black;
+}
+
