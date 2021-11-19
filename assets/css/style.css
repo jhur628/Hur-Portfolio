@@ -65,10 +65,16 @@ button {
     height: 600px;
 }
 
+#displayContent {
+    width: 100%;
+    height: 100%;
+}
+
 #profile {
     display: flex;
     width: 100%;
     height: 35%;
+    margin-bottom: 20px;
 }
 
 #aboutMe {
@@ -128,10 +134,49 @@ button {
     width: 60%;
 }
 
-#tourBaagii img:hover {
+#displayContent img:hover {
     border: 3px solid silver;
 }
 
-#weatherDashboard img:hover {
-    border: 3px solid silver;
+#links {
+    display: none;
+    margin-top: 15px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+
+}
+
+#linkedIn {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+}
+
+#linkedIn img {
+    width:100%;
+}
+
+#linkedInCaption {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
+}
+
+#gitHub {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    height: auto;
+}
+
+#gitHub img {
+    width:100%;
+}
+
+#gitHubCaption {
+    width: 100%;
+    align-self: center;
+    justify-self: center;
 }
