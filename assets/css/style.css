@@ -180,3 +180,16 @@ button {
     font-size: 30px;
     font-weight: bold;
 }
+
+#resume {
+    display: none;
+    margin-top: 15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#resumeTitle {
+    font-size: 30px;
+    font-weight: bold;
+}
