@@ -200,23 +200,14 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-
-#emailTitle {
     font-size: 30px;
 }
 
 #email {
-    font-size: 30px;
     font-weight: bold;
 }
 
-#numberTitle {
-    font-size: 30px;
-}
-
 #number {
-    font-size: 30px;
     font-weight: bold;
 }
 
@@ -225,3 +216,39 @@ button:focus {
     border: solid 2px black;
 }
 
+@media (max-width:576px) {
+    header {
+        font-size: 20px;
+    }
+
+    #instructions {
+        font-size: 15px;
+    }
+
+    #tourBaagiiContainer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #tourBaagii img {
+        width: 200px;
+    }
+
+    #weatherDashboardContainer {
+        display: flex;
+        flex-direction: column;
+        margin-top: 25px;
+    }
+
+    #weatherDashboard img {
+        width: 200px;
+    }
+
+    #resume a img {
+        width: 250px;
+    }
+
+    #contactMe {
+        font-size: 20px;
+    }
+}
