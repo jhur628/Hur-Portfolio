@@ -114,28 +114,49 @@ button {
     width: 60%;
 }
 
-#weatherDashboardContainer {
+#theBestTechBlogContainer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 
-#weatherDashboard {
+#theBestTechBlog {
     width: 30%;
     height: auto;
 }
 
-#weatherDashboard img {
+#theBestTechBlog img {
     width: 100%;
     height: auto;
 }
 
-#weatherDashboardText {
+#theBestTechBlogText {
     display: flex;
     flex-direction: column;
     width: 60%;
 }
 
+#dibsContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#dibs {
+    width: 30%;
+    height: auto;
+}
+
+#dibs img {
+    width: 100%;
+    height: auto;
+}
+
+#dibsText {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
 #displayContent img:hover {
     border: 3px solid silver;
 }
