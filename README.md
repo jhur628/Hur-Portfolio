@@ -25,9 +25,9 @@ I also made my portfolio mobile friendly, so it will be adapted to the tiny scre
 
 ## Links
 
-GitHub Repository: [https://github.com/jhur628/UpdatedJHurPortfolio](https://github.com/jhur628/UpdatedJHurPortfolio)
+GitHub Repository: [https://github.com/jhur628/Hur-Portfolio](https://github.com/jhur628/Hur-Portfolio)
 
-Deployed Application: [https://jhur628.github.io/UpdatedJHurPortfolio/](https://jhur628.github.io/UpdatedJHurPortfolio/)
+Deployed Application: [https://jhur628.github.io/Hur-Portfolio/](https://jhur628.github.io/Hur-Portfolio/)
 
 LinkedIn: [https://www.linkedin.com/in/john-hur-b146aa21a/](https://www.linkedin.com/in/john-hur-b146aa21a/)
 
