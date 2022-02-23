@@ -41,8 +41,6 @@ header {
     display: flex;
     width: 100%;
     height: 50%;
-    justify-items: center;
-    align-items: center;
     font-size: 35px;
 }
 
@@ -242,27 +240,98 @@ button:focus {
         font-size: 20px;
     }
 
+    #elementsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 5px;
+        height: 95%;
+    }
+
+    #buttonsArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        width:100%;
+    }
+
     #instructions {
-        font-size: 15px;
+        display: none;
+    }
+
+    #contentArea {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-content: center;
+        width: 100%;
     }
 
     #tourBaagiiContainer {
         display: flex;
         flex-direction: column;
+        justify-content: space-around;
     }
-
+    
+    #tourBaagii {
+        width: 100%;
+        height: auto;
+    }
+    
     #tourBaagii img {
-        width: 200px;
+        width: 100%;
+        height: auto;
     }
-
-    #weatherDashboardContainer {
+    
+    #tourBaagiiText {
         display: flex;
         flex-direction: column;
-        margin-top: 25px;
+        width: 85%;
     }
-
-    #weatherDashboard img {
-        width: 200px;
+    
+    #theBestTechBlogContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    #theBestTechBlog {
+        width: 100%;
+        height: auto;
+    }
+    
+    #theBestTechBlog img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #theBestTechBlogText {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+    }
+    
+    #dibsContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    
+    #dibs {
+        width: 100%;
+        height: auto;
+    }
+    
+    #dibs img {
+        width: 100%;
+        height: auto;
+    }
+    
+    #dibsText {
+        display: flex;
+        flex-direction: column;
+        width: 85%;
     }
 
     #resume a img {
